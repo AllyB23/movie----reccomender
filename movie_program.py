@@ -163,8 +163,9 @@ def search_flow(movies):
 
 # main menu
 def main():
-    print("movie recommender program")
-    print("search by genre director actor and length")
+    print(" Welcome to your movie recommender program!")
+    print("Here you can search by genre, director, actor, and length!")
+    print("Choose one of the options below!")
     movies = load_movies("movies.csv")
     if len(movies) == 0:
         return
